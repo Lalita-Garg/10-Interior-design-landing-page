@@ -1,4 +1,4 @@
-# SAAS Landing Page
+# Interior Design Landing Page
 Hi! I am Lalita Garg and I created this project using HTML and CSS.
 
 A static Interior Design Landing Page website that is responsive for mobile and tablet screen .
