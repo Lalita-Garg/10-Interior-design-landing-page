@@ -1,0 +1,169 @@
+*{
+    font-family: sans-serif;
+    color: #fff;
+}
+body{
+    background-image: url(./assests/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-right: 10px solid #fff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+main{
+   margin-top: 50px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.logo-img img{
+    width: 120px;
+    margin-left: 50px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-right: 50px;
+    list-style: none;
+    height: 80px;
+    border-bottom: 2px solid #fff;
+}
+.list-item{
+    font-size: 18px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.contact-container{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-top: -20px;
+}
+.contact-img{
+    width: 55px;
+    height: 55px; 
+}
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    margin-left: 140px;
+    margin-top: 100px;
+    z-index: -1;
+}
+.heading{
+    font-size: 70px;
+    width: 70%;
+}
+.learnmore-btn{
+    background-color: transparent;
+    font:caption;
+    font-size: 20px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    padding: 17px 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 230px;
+    height: 150px;
+    border: none;
+    background-color: #304555;
+    opacity: 0.8;
+    padding-inline: 20px;
+}
+.box-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.box-img-container img{
+    width: 50px; 
+    padding: 5px;
+}
+.box h4 p{
+    margin-top: 0px;
+}
+.box-1{
+    margin-top: 80px;
+    margin-right: 160px;
+}
+.box-2{
+    position: absolute;
+    padding-top: 20px;
+    right: 400px; 
+    top:500px;
+}
+.hori{
+    height: 70px;
+    margin-left: 160px;
+}
+.ver{
+    width: 80px;
+    margin-top: 130px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-size: 800px 100%;
+    }
+    .list{
+        display: none;
+    }
+    .middle-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading{
+        font-size: 45px;
+        width: 100%;
+    }
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 450px;
+        margin-bottom: 10px;
+    }
+    .box-1{
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+    .box-2{
+        position: relative;
+        padding-top: 20px;
+        right: 0px; 
+        top:0px;
+    }
+    .ver{
+        display: none;
+    }
+    .hori{
+        display: none;
+    }
+    .left-section{
+        margin-left: 50px;
+    }
+    
+}
+
