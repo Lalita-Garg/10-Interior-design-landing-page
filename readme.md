@@ -14,7 +14,7 @@ This Project took around 2 hours to complete it.
 - Navbar Designing 
 - Responsive Design
 ***
-# Deployment Link - [Live Link](https://interior-design-landingpage-11.netlify.app/)
+# Deployment Link - [Live Link](https://10-interior-design-landing-page.vercel.app/)
 ## Preview 
 
 
